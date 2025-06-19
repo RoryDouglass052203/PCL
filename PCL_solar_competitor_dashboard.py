@@ -21,7 +21,7 @@ logo_path = "C:/Users/RDDouglass/OneDrive - PCL Construction/PCL Solar Logo.png"
 col_logo, col_spacer = st.columns([1, 12], gap="small")
 
 with col_logo:
-    st.image(logo_path, width=350)       
+    st.image("assets/pcl_solar_logo.png", width=350)       
 
 # (optional) put the dashboard title next to the logo
 with col_spacer:
